@@ -24,4 +24,4 @@ if(isset($_POST['btn_submit'])){
     <input type="submit" name="btn_submit" value="confirm changes" /><br>
 </form>
 <br>
-<a href="./">Back to the users list</a>
+<a href="./">Back to the items list</a>
