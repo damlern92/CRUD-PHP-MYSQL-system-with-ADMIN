@@ -16,4 +16,4 @@ echo "Manu : " . $row[2] . "<br>";
 <a href="update-<?php echo $row[0]; ?>">Update</a>
 <a href="delete-<?php echo $row[0]; ?>">Delete</a>
 <br><br>
-<a href="./">Back to the users list</a>
+<a href="./">Back to the items list</a>
