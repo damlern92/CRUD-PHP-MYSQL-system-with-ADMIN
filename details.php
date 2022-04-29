@@ -21,4 +21,4 @@ if(isset($_GET['id'])){
 ?>
 
 <br>
-<a href="./">Back to the users list</a>
+<a href="./">Back to the items list</a>
