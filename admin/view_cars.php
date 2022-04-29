@@ -2,7 +2,7 @@
 if(!isset($_SESSION['username'])){
     die("Page for admin");
 }
-  if(mysqli_connect_error($conn)){
+  if(mysqli_connect_error()){
         echo "Error in connection";
     }else{
         $res = mysqli_query($conn,"select * from products");
