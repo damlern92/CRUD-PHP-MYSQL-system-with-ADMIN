@@ -16,6 +16,10 @@
     if(isset($_SESSION['username'])){ ?>
          <div class="loggedin">
             <h1>This is admin page</h1>
-            <h3><span style="font-size:25px; "><?php echo $_SESSION['username']; ?></span> you are loggedin welcome to your page <a href="logout">Logout</a></h3>
+            <span style="font-size:25px; ">Welcome <?php echo $_SESSION['username']; ?></span><span> you are loggedin to your page</span>
+            <br><br>
+            <a href="../" id="home-link">User panel</a> |
+            <a href="logout" id="logout-link">Logout</a>
         </div>
+        <br>
 <?php } ?>

@@ -1,3 +1,5 @@
+a:link,a:visited {color:#094186;text-decoration:none;}
+
 .login{
 	width:400px;
   margin:0 auto;
@@ -42,7 +44,17 @@ input[type=submit]:hover {
 }
 
 
+#home-link{
+  color: #030463;
+  font-size: 25px;
+}
 
+#logout-link{
+  color: #926c1b;
+  font-size: 25px;
+}
 
-
+#information-data{
+  color: #312ed3;
+}
 

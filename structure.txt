@@ -1,0 +1,11 @@
+ADMIN
+-assets
+-includes
+-.htaccess
+-index.php
+
+USER
+-css
+-includes
+-.htaccess
+-index.php
