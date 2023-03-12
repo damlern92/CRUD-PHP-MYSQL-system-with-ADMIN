@@ -1,0 +1,18 @@
+#wrapper{
+    background:#d3e0f9;
+    padding:10px;
+    border-radius: 5px;
+}
+
+#car-block{
+    display: flex;
+    flex-wrap: wrap;
+}
+.car-item{
+    background:#698cef;
+    border:1px solid #8d8d8d;padding:4px;margin:5px;
+    border-radius: 5px;
+}
+
+a:link,a:visited {color:#094186;text-decoration:none;}
+a:hover {color:#051b36;}
