@@ -9,7 +9,7 @@ if(!isset($_SESSION['username']) || $_SESSION['username']!== '' ){
 ?>
 
     <div class="loggedin">
-        <h3><span style="font-size:25px; "><?php echo $_SESSION['username']; ?></span> you are loggedin welcome to your page </h3>
+        <h3><span style="font-size:25px; "><?php echo $_SESSION['username']; ?></span> you are loggedin welcome to your page/h3>
         <a href="logout">Logout</a>
     </div>
 
