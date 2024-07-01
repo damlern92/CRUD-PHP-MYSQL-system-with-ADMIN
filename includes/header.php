@@ -9,18 +9,28 @@
 
         <title><?php echo $page_title; ?></title>
     </head>
+    
     <body>
 
         <div id="wrapper">
+            <div class="middle">
 
-            <?php 
-                if(!isset($_SESSION['username'])){
-                    echo "<h1>PHP CRUD system with admin panel</h1>";
-                    echo "<a href='admin'>Login to Admin panel</a>";
-                }else{
-                    echo "<h1>PHP CRUD system with admin panel</h1>";
-                    echo "Loggedin as <span style='font-size:20px;'>".$_SESSION['username']."</span> <br><a href='admin' style='color:blue;font-size:25px;'> Access to Admin panel</a><br><br>";
-                }
-            ?>
+                <?php
+                
+                    if(!isset($_SESSION['username'])){
+                        echo "<div id='header'>";
+                            echo "<div id='left-side'><h2>Php crud system with admin panel</h2></div>";
+                            echo "<div id='right-side'><h3><a href='admin'>ADMIN PANEL</a></h3></div>";
+                        echo "</div>";
+                    }else{
+                        echo "<div id='header'>";
+                            echo "<div id='left-side'><h2>Php crud system with admin panel</h2></div>";
+                            echo "<p id='right-side'>LOGGEDIN AS <span style='font-size:28px;color:black;'>".$_SESSION['username']."</span> <br><a href='admin' style='color:blue;font-size:25px;'> Access to Admin panel</a></p><br><br>";
+                        echo "</div>";
+                    }
+
+                ?>
+
+            </div>
 
             <div id="main">

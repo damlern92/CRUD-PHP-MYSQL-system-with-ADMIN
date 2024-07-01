@@ -16,7 +16,7 @@ if (isset($_GET['page'])) {
     // include('404.php');
 }
 
-// // Determine what page to display:
+// Determine what page to display:
 switch ($p) {
      case 'home':
         $page = 'home.php';
@@ -30,14 +30,14 @@ switch ($p) {
     default: // Default is to include the main page.
         $page = 'home.php';
         $page_title = 'Home Page';
-    break;
         
 } // End of main switch.
 
+
 // Make sure the file exists:
 if (!file_exists($page)) {
-    $page = 'index.php';
-    $page_title = 'Home Page';
+    $page = 'home.php';
+    $page_title = 'HOME';
 }
 
 // Include the header file:

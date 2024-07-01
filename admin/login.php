@@ -27,13 +27,12 @@
 ?>
 
 <?php
-    if(!isset($_SESSION['username'])){
+    if(!isset($_SESSION['username']) || $_SESSION['username'] == ''){
 ?>
     <div class="login">
         <h1>Login page</h1><br>
         <h3>User access data:</h3>
-        <h4>username - admin</h4>
-        <h4>password - 1</h4>
+        <h4>username: admin - password: 1</h4>
         <form action="" method="post">
             <input type="text" name="tbUsername" placeholder="Username" size="25" required /><br>
             <input type="text" name="tbPassword" placeholder="Password" size="25" required/><br>
