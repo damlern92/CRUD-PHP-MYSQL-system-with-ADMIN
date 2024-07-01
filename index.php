@@ -8,8 +8,6 @@
 
 require('config.php');
 
-//123346
-
 // Validate what page to show:
 if (isset($_GET['page'])) {
     $p = $_GET['page'];
